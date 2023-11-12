@@ -14,10 +14,11 @@ The FIFO is not as tested as the LRU as that is not the main focus (FIFO is less
 4 blocks, 2-Way Set Associative, Using Addresses:  
 0, 8, 0, 6, 8  
 Expected Results:
-|Address Accessed | Hit/Miss | Set 0 | Set 0 | Set 1 | Set 1 |
-|:---------------:|:--------:||:----:||:----:||:----:||:----:|
-|0 | 'Miss' | 0 | - | - | - | 
-|8 | 'Miss' | 0 | 8 | - | - | 
-|0 | 'Hit'  | 0 | 8 | - | - | 
-|6 | 'Miss' | 0 | 8 | 6 | - | 
-|8 | 'Hit'  | 0 | 8 | 6 | - | 
+|Address Accessed | Hit/Miss | Set 0 | Set 0 | Set 1 | Set 1 |  
+|:---------------:|:--------:||:----:||:----:||:----:||:----:|  
+|0 | 'Miss' | 0 | - | - | - |   
+|8 | 'Miss' | 0 | 8 | - | - |   
+|0 | 'Hit'  | 0 | 8 | - | - |   
+|6 | 'Miss' | 0 | 8 | 6 | - |   
+|8 | 'Hit'  | 0 | 8 | 6 | - |   
+  
