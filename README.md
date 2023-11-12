@@ -29,7 +29,7 @@ Expected Results:
 
 Colons can be used to align columns.
 
-| Tables        | Are/less           | Cool  |
+| Tables        | Are less           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
