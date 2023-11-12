@@ -25,8 +25,8 @@ Expected Results:
 | 8 | `Hit`  | 0 | 8 | 6 | - |   
   
 | Address Accessed        | Hit/Miss           | Set 0  | Set 0  | Set 1           | Set 1  |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
-| 0      | `Miss` | 0 | -      | right-aligned | $1600 |
+| :-------------: |:-------------:| :-----:| :------------- |:-------------:| :-----:|
+| 0      | `Miss` | 0 | -      | - | - |
 | 8      | `Miss`      |   $12 | col 2 is      | centered      |   $12 |
 | 0      | `Hit`      |    $1 | zebra stripes | are neat      |    $1 |
 | 6      | `Miss` | $1600 | col 3 is      | right-aligned | $1600 |
